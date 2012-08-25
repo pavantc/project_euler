@@ -1,0 +1,40 @@
+For each hundred -
+--------------------
+"one - nine" -> 36 letters -> 9 times in a 100 -> 324 letters
+"ten -> 3 letters
+"eleven-nineteen" -> 67 letters
+"twenty" -> 6 letters -> 10 times in a 100 -> 60
+"thirty" -> 6 letters -> 10 times in a 100 -> 60
+"forty" -> 5 letters -> 10 times in a 100 -> 50
+"fifty" -> 5 letters -> 10 times in a 100 -> 50
+"sixty" -> 5 letters -> 10 times in a 100 -> 50
+"seventy" -> 7 letters -> 10 times in a 100 -> 70
+"eighty" -> 6 letters -> 10 times in a 100 -> 60
+"ninety" -> 6 letters -> 10 times in a 100 -> 60
+Total -> 324 + 3 + 67 + 60 + 60 + 50 + 50 + 50 + 70 + 60 + 60 = 854 letters
+
+In a thousand, we use the above 10 times -> 8450 letters
+
+We use "one hundred" a hundred times -> 1000 letters
+similarly for
+"two hundred" -> 1000 letters
+"three hundred" -> 1200 letters
+"four hundred" -> 1100 letters
+"five hundred" -> 1100 letters
+"six hundred" -> 1000 letters
+"seven hundred" -> 1200 letters
+"eight hundred" -> 1200 letters
+"nine hundred" -> 1100 letters
+
+Total - 9900
+
+We use the word "and" 99 times in a hundred. We have nine hundreds. In all -
+99 * 9 * 3 letters -> 2673 letters
+
+"One thousand" uses 11 letters.
+
+Adding everything -
+8540 + 9900 + 2673 + 11 
+--------
+21124
+--------
