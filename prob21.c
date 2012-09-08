@@ -36,6 +36,10 @@ main()
 		}
 	}
 
+	/*
+	 * Final sum = sum/2 since we would have accounted for these numbers
+	 * twice.
+	 */
 	printf("%d\n", sum/2);
 	return (0);
 }

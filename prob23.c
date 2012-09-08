@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <math.h>
 
+/* No, the program is not buggy. Just atrociously slow. Let it complete */
+
 int
 get_sum_of_divisors(int num)
 {

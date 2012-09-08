@@ -2,6 +2,8 @@
 #include <math.h>
 #include <stdint.h>
 
+/* Faster algorithm than prob23.c, but still lousy */
+
 int
 get_sum_of_divisors(int num)
 {

@@ -1,5 +1,20 @@
 #include <stdio.h>
 
+/*
+ * We start from the last-but-one row.
+ * The first number in this row is 63. The paths reachable from 63 are:
+ * ls (left-sum): 63->4
+ * rs (right-sum): 63->62
+ * The path with the largest sum of the two is 63->62.
+ * From the perspective of the best path from 63, we can simply overwrite 63
+ * with the sum (63+62) since this is what one will always take given the
+ * max-path-sum criteria. Continuing in this fashion, we find the max-path-sum
+ * for all the numbers in the last-but-one row, and overwrite them with their
+ * max-path-sum.
+ * Now, moving one row above, we do the same for all the numbers in that row.
+ * In this fashion, we get to a[0][0] which would finally have the
+ * max-path-sum.
+ */
 int
 main()
 {
