@@ -1,0 +1,49 @@
+0.123456789101112131415161718192021...
+It can be seen that the 12th digit of the fractional part is 1.
+If dn represents the nth digit of the fractional part, find the value of the
+following expression.
+d1 × d10 × d100 × d1000 × d10000 × d100000 × d1000000
+
+***** d1 = 1 *****
+
+***** d10 = 1 ***** 
+
+d100 => Starting from 10, the numbers occupy two digits each. To get the 100th
+digit, we need 50 numbers. But 1-9 take only one digit. So the number that
+falls into the 100th digit slot is -> 100 - 9 = 91. 91/2 = 45. Remainder is 1
+There are 45 full 2 digit numbers that can be formed with the available number
+of digits.  => 45th 2 digit number = 45 + 9 = 54. Next number = 55.
+100th digit is 5
+***** d100 = 5 *****
+
+Similarly, for 1000, 
+1000 - 9 - 90 * 2 = 1000 - 189 = 811. 811/3 = 270.
+Remainder is 1.
+270th 3 digit number = 270 + 99 = 369.
+Next number = 370 =>
+1000th digit is 3
+***** d1000 = 3 *****
+
+10000 - 9 - 90*2 - 900*3 = 10000 - 2889 = 7111. 7111/4 = 1777.
+Remainder is 3.
+1777th 4 digit number is 1777+999 = 2776.
+Next number is 2777.
+10000th digit is 7.
+***** d10000 = 7 *****
+
+100000 - 9 - 90*2 - 900*3 - 9000*4 = 100000 - 38889 = 61111. 61111/5 = 12222.
+Remainder is 1.
+12222th 5 digit number = 12222 + 9999 = 22221.
+Next number is 22222.
+100000th digit is 2
+***** d100000 = 2 *****
+
+1000000 - 9 - 90*2 - 900*3 - 9000*4 - 90000*5 = 511111. 511111/6 = 85185.
+Remainder is 1. 
+85185th 6 digit number = 85185 + 99999 = 185184.
+Next number is 185185.
+1000000th digit is 1.
+***** d1000000 = 1 *****
+
+So,
+d1 × d10 × d100 × d1000 × d10000 × d100000 × d1000000 = 1*1*5*3*7*2*1 = 210

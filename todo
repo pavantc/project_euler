@@ -1,0 +1,16 @@
+#!/bin/bash
+
+if [ $# -ne 1 ]; then
+	echo "usage: $0 <PN>"
+	echo "Prints out problem numbers that are NOT solved from 1 to PN"
+	exit 1
+fi
+
+pn=$1
+
+for i in `seq 1 $pn`; do
+	ls prob$i.* > /dev/null 2>&1
+	if [ $? -ne 0 ]; then
+		echo prob$i
+	fi
+done
