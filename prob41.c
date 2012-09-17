@@ -73,7 +73,7 @@ main()
 	int i, nd;
 
 	/* Brute force. There is a better implementation in prob41a.c */
-	for (i = 987654321; i > 1; i--) {
+	for (i = 987654321; i > 1; i-=2) {
 		nd = num_digits(i);
 		if (is_candidate(i, nd) && is_prime(i)) {
 			printf("%d\n", i);

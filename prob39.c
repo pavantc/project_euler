@@ -10,7 +10,7 @@ main()
 
 	for (n = 1000; n > 5; n--) {
 		count = 0;
-		for (a = n-3; a > 0; a--) {
+		for (a = n/2; a > 0; a--) {
 			sum = n - a;
 			for (b = 1; b < sum; b++) {
 				c = sum - b;

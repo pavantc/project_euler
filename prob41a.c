@@ -71,7 +71,7 @@ swap(char *a, char *b)
  * all the way until all the for the last letter is obtained.
  */
 
-int num, max = 0;
+int max = 0;
 
 void
 get_all_permutations(char *p, int len)
@@ -79,8 +79,8 @@ get_all_permutations(char *p, int len)
 	int i, t;
 
 	if (len == 1) {
-		num = atoi(copy);
-		if (is_prime(num) && num > max) {
+		int num = atoi(copy);
+		if (num&1 && is_prime(num) && num > max) {
 			max = num;
 		}
 		return;
